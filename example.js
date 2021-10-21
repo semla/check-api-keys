@@ -5,7 +5,7 @@
 
 // See the README.md for an example how to use it in a build-script
 
-const checkAllKeys = require('./checkKeys')
+const checkKeys = require('check-api-keys')
 
 main()
 
@@ -26,5 +26,5 @@ optionsArr = [
     }
 ]
 
-  await checkAllKeys(optionsArr);
+  await checkKeys(optionsArr);
 }
